@@ -77,7 +77,8 @@ async def pm_text(bot, message):
 💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
 ✨ 𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ 𝐌ᴏᴠɪᴇ𝐬
    𝐈ɴ 𝐕ɪᴅᴇᴏ 𝐅ᴏʀᴍᴀᴛᴇ 😇
-⚜️ 𝐏ʀᴇᴍɪᴜᴍ 𝐒ᴜ𝐬ᴄʀɪᴘᴛɪᴏɴ ⚜️ 👉 <a href="https://t.me/Hindi_Hd_movies1st">𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ</a></b>""")
+   
+⚜𝐏ʀᴇᴍɪᴜᴍ 𝐒ᴜ𝐬ᴄʀɪᴘᴛɪᴏɴ 👉 <a href="https://t.me/Hindi_Hd_movies1st">𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ</a></b>""")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
