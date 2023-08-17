@@ -72,9 +72,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_text("""<b>Hʀʏ 𝐃ᴜᴅᴇ,
     
-ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ sᴏ ᴊᴏɪɴ ᴏᴜʀ ɢɪᴠᴇɴ ᴄʜᴀɴɴᴇʟs <a 
-href="https://t.me/Cinemaa_Boxoffice">𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ</a>
-
+ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ sᴏ ᴊᴏɪɴ ᴏᴜʀ ɢɪᴠᴇɴ ᴄʜᴀɴɴᴇʟs <a href="https://t.me/Cinemaa_Boxoffice">𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ</a>
 
 💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
 ✨ 𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ 𝐌ᴏᴠɪᴇ𝐬
