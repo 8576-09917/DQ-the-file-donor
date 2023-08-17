@@ -70,15 +70,17 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("""<b>Hᴇʟʟᴏ {},
+    await message.reply_text("""<b>Hʀʏ 𝐃ᴜᴅᴇ,
     
-MMʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
+ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ sᴏ ᴊᴏɪɴ ᴏᴜʀ ɢɪᴠᴇɴ ᴄʜᴀɴɴᴇʟs <a 
+href="https://t.me/Cinemaa_Boxoffice">𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ</a>
 
-💫 I AM POWERFUL AUTO-FILTER BOt,
 
-✨ I CAN PROVIDE MOVIES AND WEB SERIES.
+💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
+✨ 𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ 𝐌ᴏᴠɪᴇ𝐬
+   𝐈ɴ 𝐕ɪᴅᴇᴏ 𝐅ᴏʀᴍᴀᴛᴇ 😇
 
-✨ ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN.😍</b>""")
+𝐏ʀᴇᴍɪᴜᴍ 𝐒ᴜsᴄʀɪᴘᴛɪᴏɴ <a href="https://t.me/Hindi_Hd_movies1st">𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ</a></b>""")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
