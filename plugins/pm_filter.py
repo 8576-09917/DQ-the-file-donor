@@ -70,15 +70,15 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text(
-    "<b>ʜᴇʏ ᴅᴜᴅᴇ, 
-    💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
-     𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ    
-     𝐌ᴏᴠɪᴇs 𝐈ɴ 𝐕ɪᴅᴇᴏ 𝐅ᴏʀᴍᴀᴛᴇ 😇
+    await message.reply_text("""<b>Hᴇʟʟᴏ {},
+    
+MMʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
 
-ʜʀᴇғ="ʜᴛᴛᴘs://ᴛ.ᴍᴇ/ʜɪɴᴅɪ_ʜᴅ_ᴍᴏᴠɪᴇs𝟷sᴛ">ᴛᴏᴜᴄʜ 𝐇ᴇʀᴇ</ᴀ>
+💫 I AM POWERFUL AUTO-FILTER BOt,
 
-ʜʀᴇғ="ʜᴛᴛᴘs://ᴛ.ᴍᴇ/ᴄɪɴᴇᴍᴀᴀ_ʙᴏxᴏғғɪᴄᴇ">𝐌ᴀɪɴ 𝐂ʜᴀɴɴᴇʟ</ᴀ></b>")
+✨ I CAN PROVIDE MOVIES AND WEB SERIES.
+
+✨ ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN.😍</b>""")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>"
