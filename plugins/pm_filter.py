@@ -70,9 +70,10 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
-     𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ    
-     𝐌ᴏᴠɪᴇs 𝐈ɴ 𝐕ɪᴅᴇᴏ 𝐅ᴏʀᴍᴀᴛᴇ 😇
+    await message.reply_text(
+    "<b>💫 𝐁ᴜʏ 𝐏ʀᴇᴍɪᴜᴍ 𝐈ɴ 𝐂ʜᴇᴀᴘ 𝐑ᴀᴛᴇ
+           𝐅ᴏʀ 𝐃ɪʀᴇᴄᴛ 𝐃ᴏᴡɴʟᴏᴀᴅɪɴɢ    
+           𝐌ᴏᴠɪᴇs 𝐈ɴ 𝐕ɪᴅᴇᴏ 𝐅ᴏʀᴍᴀᴛᴇ 😇
 
 href="https://t.me/Hindi_Hd_movies1st">Tᴏᴜᴄʜ 𝐇ᴇʀᴇ</a>
 
